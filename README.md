@@ -12,7 +12,7 @@ URL cloaking is the act of hiding the actual domain name of a website from the U
 
 The about:blank method uses the `window.open()` function to open a new blank tab with the URL of `about:blank`. 
 
-[Read more.](/examples/about-blank)
+[Read more.](/examples/about%20blank)
 
 ### Data URL
 
