@@ -65,4 +65,4 @@ These links can also be opened in JavaScript using `window.open()`.
 window.open(blobURL,"_blank");
 ```
 
-See [example.js](/example.js) for a more in depth example.
+See [example.js](example.js) for a more in depth example.

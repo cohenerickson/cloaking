@@ -37,4 +37,4 @@ h1.innerText = "About Blank Example";
 doc.body.appendChild(h1);
 ```
 
-See [example.js](/example.js) for a more in depth example.
+See [example.js](example.js) for a more in depth example.
