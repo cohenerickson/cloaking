@@ -16,7 +16,7 @@ The About Blank method uses the `window.open()` function to open a new blank tab
 
 ### Data URL
 
-The data URL method uses data urls as the name sugests to display content through the content type `text/html`, an example of a data url is `data:text/html;charset=utf8,Hello-World`.
+The data URL method uses data urls as the name sugests to display content through the content type `text/html`, an example of a data url is `data:text/html;charset=utf8,Hello%20World`.
 
 [Read more.](/data)
 
