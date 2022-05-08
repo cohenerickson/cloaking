@@ -1,3 +1,4 @@
+// Write or generate your HTML code
 const HTML = `
 <!DOCTYPE html>
 <html>
@@ -18,8 +19,9 @@ const HTML = `
   </body>
 </html>
 `;
-const byteArrays = [];
 
+// Turn the HTML into an array of bytes
+const byteArrays = [];
 for (let offset = 0; offset < HTML.length; offset += 1024) {
   const slice = HTML.slice(offset, offset + 1024);
   const byteNumbers = new Array(slice.length);
@@ -29,7 +31,11 @@ for (let offset = 0; offset < HTML.length; offset += 1024) {
   const byteArray = new Uint8Array(byteNumbers);
   byteArrays.push(byteArray);
 }
+
+// Turn the array of bytes into a Blob object
 const blob = new Blob(byteArrays, {type: "text/html"});
+// Turn the Blob into a URL
 const blobUrl = URL.createObjectURL(blob);
 
+// Open the link in a new tab
 window.open(blobUrl, '_blank');

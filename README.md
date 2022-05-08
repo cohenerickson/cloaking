@@ -22,7 +22,7 @@ The data URL method uses data urls as the name sugests to display content throug
 
 ### Blob URL
 
-The blob URL method is similar to the Data URL method, it uses JavaScripts built in `Blob` class in order to generate a file-like object that can then be viewed by the user.
+The blob URL method is similar to the Data URL method, it uses JavaScript's built in `Blob` class in order to generate a file-like object that can then be viewed by the user.
 
 [Read more.](/examples/blob)
 
