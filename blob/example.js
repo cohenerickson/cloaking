@@ -5,7 +5,7 @@ const HTML = `
   <head>
     <title>Blob URL Example</title>
     <script>
-      console.log("Script loaded.");
+      console.log("Hello World");
     </script>
     <style>
       * {

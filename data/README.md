@@ -33,3 +33,4 @@ function loadScript(src) {
 }
 ```
 
+See [example.js](/example.js) for a more in depth example.

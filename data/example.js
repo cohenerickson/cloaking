@@ -15,6 +15,8 @@ const HTML = `
     <h1>Data URL Example.</h1>
   </body>
   <script>
+    console.log("Hello World");
+
     function loadScript(src) {
       const script = document.createElement("script");
       script.src = src;
